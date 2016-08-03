@@ -1,0 +1,20 @@
+{
+  "name": "bigfootblog",
+  "description": "",
+  "main": "",
+  "authors": [
+    "bigfoot110614 <826160425@qq.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
