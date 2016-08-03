@@ -3,5 +3,5 @@ module.exports = {
     //db: 'blog',// 数据库的名称
     //host: '123.57.143.189', //数据库的地址
     //port: 27017,  //数据库的端口号
-    url: "mongodb://localhost:27017/blog",
+    url: "mongodb://123.57.143.189:27017/bigfootblog",
 };
