@@ -1,19 +1,19 @@
-module.exports={
-    //ÒªÇóÎ´µÇÂ¼
-    checkNotLogin: function (req,res,next) {
+module.exports = {
+    //è¦æ±‚æœªç™»é™†
+    checkNotLogin:function(req,res,next){
         if(req.session.user){
-            req.flash('error','ÒÑ¾­µÇÂ¼');
+            req.flash('error','å·²ç»ç™»é™†');
             res.redirect('/');
         }else{
             next();
         }
     },
-    //ÒªÇóµÇÂ¼
-    checkLogin: function (req,res,next) {
+    //è¦æ±‚ç™»é™†
+    checkLogin:function(req,res,next){
         if(req.session.user){
             next();
         }else{
-            req.flash('error','Î´µÇÂ¼');
+            req.flash('error','æœªç™»é™†');
             res.redirect('/user/login');
         }
     }
