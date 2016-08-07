@@ -28,7 +28,7 @@
             </div>
             <div class="media-body">
                 <p><%-comment.content%></p>
-                <p>作者:<%=comment.user.username%>|发表时间:<%=comment.createAt.toLocaleString()%></p>
+                <p><b>作者:</b><%=comment.user.username%>|<b>时间:</b><%=comment.createAt.toLocaleString()%></p>
             </div>
         </div>
         <%});

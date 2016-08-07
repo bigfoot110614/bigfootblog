@@ -12,7 +12,7 @@
                 <a href="/article/detail/<%=article._id%>"><%=article.title%></a>
             </h4>
             <p><%-article.content%></p>
-            <p>作者:<%=article.user.username%>|时间:<%=article.createAt.toLocaleString()%>|阅读量:<%=article.pv%>|评论数:<%=article.comments.length%></p>
+            <p><b>作者:</b><%=article.user.username%>|<b>时间:</b><%=article.createAt.toLocaleString()%>|<b>阅读量:</b><%=article.pv%>|<b>评论数:</b><%=article.comments.length%></p>
         </div>
     </div>
  <%});
